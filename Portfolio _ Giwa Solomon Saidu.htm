@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Giwa Solomon Saidu</title>
+    <link rel="stylesheet" href="Portfolio%20_%20Giwa%20Solomon%20Saidu_files/style.css">
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Giwa Solomon Saidu</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            background: #f5f7fa;
+        }
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background: #0a0f24;
+            color: #fff;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .logo {
+            font-size: 1.6rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        .nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+        }
+        .nav ul li a {
+            text-decoration: none;
+            color: #e4e6eb;
+            font-size: 1rem;
+            transition: 0.3s ease;
+        }
+        .nav ul li a:hover {
+            color: #4da6ff;
+        }
+            /* Hover underline animation */
+        .nav ul li a {
+            position: relative;
+        }
+        .nav ul li a::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -4px;
+            width: 0%;
+            height: 2px;
+            background: #4da6ff;
+            transition: width 0.3s ease;
+            border-radius: 2px;
+        }
+        .nav ul li a:hover::after {
+            width: 100%;
+        }
+
+        /* Updated professional color palette */
+        body {
+            background: #f4f6fc;
+        }
+        .nav {
+            background: linear-gradient(135deg, #0c1633, #0a0f24);
+        }
+        .nav ul li a:hover {
+            color: #66b8ff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="logo">Giwa Solomon Saidu</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+        <section class="hero">
+    <div class="hero-inner">
+        <img src="Portfolio%20_%20Giwa%20Solomon%20Saidu_files/image.png" alt="Solomon Giwa Saidu" class="hero-photo">
+        <div>
+            <h1>Driving Growth Through Insightful Data Analytics, Strategic Recommendations, and M&amp;E KPI-Informed Decisions.</h1>
+        </div>
+    </div>
+</section>
+
+    
+
+  
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Giwa Solomon Saidu</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            background: #f4f6fc;
+        }
+
+        .about-section {
+            max-width: 1100px;
+            margin: 80px auto;
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+            animation: fadeIn 1.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .profile-pic {
+            width: 230px;
+            height: 230px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+            transition: 0.4s ease;
+        }
+
+        .profile-pic:hover {
+            transform: scale(1.05);
+        }
+
+        .about-text h2 {
+            font-size: 2rem;
+            color: #0a0f24;
+            margin-bottom: 10px;
+        }
+
+        .about-text p {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #444;
+            margin-bottom: 15px;
+        }
+
+        .skills-list {
+            margin-top: 15px;
+        }
+
+        .skills-list span {
+            background: #0a0f24;
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 30px;
+            display: inline-block;
+            margin: 6px 6px 0 0;
+            font-size: 0.9rem;
+        }
+            .skills-section {
+            max-width: 1100px;
+            margin: 60px auto;
+            padding: 40px;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.07);
+            animation: fadeIn 1.2s ease;
+        }
+
+        .skills-title {
+            font-size: 2rem;
+            color: #0a0f24;
+            margin-bottom: 10px;
+        }
+
+        .skills-intro {
+            font-size: 1.05rem;
+            color: #555;
+            margin-bottom: 25px;
+            line-height: 1.7;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .skill-card {
+            background: #f8faff;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+        }
+
+        .skill-card h3 {
+            font-size: 1.3rem;
+            color: #0a0f24;
+            margin-bottom: 15px;
+        }
+
+        .skill-card ul {
+            padding-left: 20px;
+        }
+
+        .skill-card ul li {
+            margin-bottom: 10px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+            /* PROJECTS SECTION */
+        .projects-section {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 40px;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.07);
+            animation: fadeIn 1.2s ease;
+        }
+
+        .projects-title {
+            font-size: 2rem;
+            color: #0a0f24;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .project-card {
+            background: #f8faff;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+        }
+
+        .project-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+        }
+
+        .project-img {
+            width: 100%;
+            height: 170px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+
+        .project-btn {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 10px 20px;
+            background: #0a0f24;
+            color: #fff;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: 0.3s ease;
+        }
+
+        .project-btn:hover {
+            background: #4da6ff;
+        }
+
+        /* CONTACT SECTION */
+        .contact-section {
+            margin-top: 60px;
+            padding: 40px;
+            background: #0a0f24;
+            color: white;
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .contact-link {
+            color: #4da6ff;
+            text-decoration: none;
+        }
+
+    </style>
+
+
+
+    <section id="about" class="about-section">
+        <div class="about-image-wrapper">
+            <img src="Portfolio%20_%20Giwa%20Solomon%20Saidu_files/imagepix.jpg" alt="Giwa Solomon Saidu" class="about-profile">
+        </div>
+
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>
+                I am <strong>Giwa Solomon Saidu</strong>, a data 
+analytics and business intelligence professional committed to 
+transforming data into actionable insights that deliver real business 
+impact. With strong experience in <strong>Power BI, SQL, Excel, and M&amp;E KPI tracking</strong>, I specialize in transforming complex datasets into strategic insights that support clear, informed, and data-driven decisions.
+            </p>
+
+            <p>
+                I am passionate about uncovering trends, optimizing 
+processes, and designing intuitive dashboards that empower organizations
+ to make smarter, faster, and evidence-based decisions.
+            </p>
+
+            <h3>Core Competencies</h3>
+            <ul class="about-list">
+                <li>✔ Data Cleaning, Analysis &amp; Modelling</li>
+                <li>✔ KPI Development &amp; M&amp;E Reporting</li>
+                <li>✔ Dashboard Design &amp; Data Visualization</li>
+                <li>✔ Business Intelligence &amp; Performance Insights</li>
+                <li>✔ Process Optimization &amp; Data-Driven Strategy</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <h2 class="skills-title">Skills</h2>
+
+        <p class="skills-intro">
+            As a data analyst with strong business intelligence and M&amp;E experience, I combine analytical thinking
+            with modern tools to transform raw data into clear, actionable insights.
+        </p>
+
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Core Technical Skills</h3>
+                <ul>
+                     <li>Data Cleaning &amp; Preparation</li>
+                    <li>Data Visualization &amp; Reporting</li>
+                    <li>Business Intelligence (BI)</li>
+                    <li>KPI Design &amp; M&amp;E Reporting</li>
+                    <li>Database Querying (SQL)</li>
+                    <li>Excel Analytics &amp; Automation</li>
+                    <li>Problem-Solving &amp; Critical Thinking</li>
+                    <li>ETL (Extract, Transform, Load)</li>
+                     <li>Data Modelling </li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3>Tools &amp; Technologies</h3>
+                <ul>
+                    <li>SQL (Joins, Aggregations, Transformations)</li>
+                    <li>Excel (PivotTables, Power Query, Automation)</li>
+                    <li>Tableau (Data Storytelling &amp; Reporting)</li>
+                    <li>Collaboration Tools (Windows Server, Google Suite, Microsoft Office, Slack, Zoom, Team Viewer and Google Meet)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="projects-section">
+        <h2 class="projects-title">Projects</h2>
+
+        <div class="projects-grid">
+            <!-- Project Template (Duplicate for more projects) -->
+            <div class="project-card">
+    <img src="Portfolio%20_%20Giwa%20Solomon%20Saidu_files/imagd.JPG" alt="Deskify Office Supplies Dashboard" class="project-img">
+
+    
+    <h3>Deskify Office Supplies Performance Dashboard</h3>
+    
+    <p>
+        This interactive Power BI dashboard provides a comprehensive analysis of office supplies performance 
+        from January 2009 to December 2012. It offers a strategic view of sales trends, profitability, 
+        customer behaviour, and product performance across multiple dimensions.
+    </p>
+
+    <p>
+        The report integrates data from orders, customers, product categories, shipping modes, and 
+        geographic locations, allowing stakeholders to quickly uncover insights and make data-driven decisions.
+    </p>
+
+    <a href="#" class="project-btn">View Project</a>
+</div>
+
+
+            <div class="project-card">
+                <img src="Portfolio%20_%20Giwa%20Solomon%20Saidu_files/Pure%20Sip%20Dash.PNG" alt="Sales Analysis" class="project-img">
+                <h3>Pure Sip’s Sales Analysis Dashboard</h3>
+                <p>This Power BI dashboard provides a clear overview of 
+Pure Sip’s sales performance across regions, retailers, and beverage 
+brands. It tracks key metrics such as total sales, quantity sold, number
+ of retailers, and progress toward sales targets. The report also 
+visualizes monthly sales trends, regional performance using map 
+insights, retailer contributions, and brand-level sales comparisons. 
+This dashboard highlights my ability to analyze multi-dimensional sales 
+data and present actionable insights in a visually compelling format.</p>
+                <a href="#" class="project-btn">View Project</a>
+            </div>
+
+            <!-- Duplicate the block below for up to 8 projects -->
+            <div class="project-card">
+                <img src="Portfolio%20_%20Giwa%20Solomon%20Saidu_files/Eastview.png" alt="Project 3" class="project-img">
+                <h3>Eastview Marketing Dashboard</h3>
+                <p>This Excel-based dashboard provides a year-round 
+analysis of Eastview’s marketing performance across revenue, profit, 
+campaign success, and ROI. It visualizes monthly sales trends, compares 
+actual sales versus planned targets, and highlights profit margins 
+across key channels such as online, wholesale, and retail. The dashboard
+ also presents regional target achievement and examines the relationship
+ between marketing spend and sales performance. This project showcases 
+my ability to design clear, data-driven Excel dashboards that support 
+strategic marketing decisions.</p>
+                <a href="#" class="project-btn">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <img src="Portfolio%20_%20Giwa%20Solomon%20Saidu_files/Cafe_Harmony.PNG" alt="Project 4" class="project-img">
+                <h3>Cafe Harmony's Sales Performance Dashboard</h3>
+                <p>This dashboard provides a comprehensive analysis of 
+sales performance for Cafe Harmony, combining product insights, customer
+ behavior, and stock tracking to support data-driven decision-making. 
+This project analysis was done using Microsoft Excel, it visualizes key 
+metrics such as total sales, customer count, average ratings, and 
+product-level performance.</p>
+                <a href="#" class="project-btn">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <img src="Portfolio%20_%20Giwa%20Solomon%20Saidu_files/project5.jpg" alt="Project 5" class="project-img">
+                <h3>Project Title 5</h3>
+                <p>Description of analysis, dashboard, reporting system, or insights generated.</p>
+                <a href="#" class="project-btn">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <img src="Portfolio%20_%20Giwa%20Solomon%20Saidu_files/project6.jpg" alt="Project 6" class="project-img">
+                <h3>Project Title 6</h3>
+                <p>Brief project summary showing problem solved or insights uncovered.</p>
+                <a href="#" class="project-btn">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <img src="Portfolio%20_%20Giwa%20Solomon%20Saidu_files/project7.jpg" alt="Project 7" class="project-img">
+                <h3>Project Title 7</h3>
+                <p>Dashboard, analysis, or SQL automation task carried out to improve decision-making.</p>
+                <a href="#" class="project-btn">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <img src="Portfolio%20_%20Giwa%20Solomon%20Saidu_files/project8.jpg" alt="Project 8" class="project-img">
+                <h3>Project Title 8</h3>
+                <p>Summary of BI solution, M&amp;E reporting, or visualization completed.</p>
+                <a href="#" class="project-btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <p>Email: <strong>giwasolomonsaidu@gmail.com</strong></p>
+        <p>Phone: <strong>07064646245</strong></p>
+        <p>LinkedIn: <a href="#" class="contact-link">Your LinkedIn Profile</a></p>
+    </footer>
+
+    <script src="Portfolio%20_%20Giwa%20Solomon%20Saidu_files/script.js"></script>
+<!-- Code inject--></body></html>

@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Giwa Solomon Saidu</title>
+    <link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Giwa Solomon Saidu</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            background: #f5f7fa;
+        }
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background: #0a0f24;
+            color: #fff;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .logo {
+            font-size: 1.6rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        .nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+        }
+        .nav ul li a {
+            text-decoration: none;
+            color: #e4e6eb;
+            font-size: 1rem;
+            transition: 0.3s ease;
+        }
+        .nav ul li a:hover {
+            color: #4da6ff;
+        }
+            /* Hover underline animation */
+        .nav ul li a {
+            position: relative;
+        }
+        .nav ul li a::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -4px;
+            width: 0%;
+            height: 2px;
+            background: #4da6ff;
+            transition: width 0.3s ease;
+            border-radius: 2px;
+        }
+        .nav ul li a:hover::after {
+            width: 100%;
+        }
+
+        /* Updated professional color palette */
+        body {
+            background: #f4f6fc;
+        }
+        .nav {
+            background: linear-gradient(135deg, #0c1633, #0a0f24);
+        }
+        .nav ul li a:hover {
+            color: #66b8ff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="logo">Giwa Solomon Saidu</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
+
+        <section class="hero">
+    <div class="hero-inner">
+        <img src="images/image.png" alt="Solomon Giwa Saidu" class="hero-photo">
+        <div>
+            <h1>Driving Growth Through Insightful Data Analytics, Strategic Recommendations, and M&E KPI-Informed Decisions.</h1>
+        </div>
+    </div>
+</section>
+
+    </header>
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Giwa Solomon Saidu</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            background: #f4f6fc;
+        }
+
+        .about-section {
+            max-width: 1100px;
+            margin: 80px auto;
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+            animation: fadeIn 1.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .profile-pic {
+            width: 230px;
+            height: 230px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+            transition: 0.4s ease;
+        }
+
+        .profile-pic:hover {
+            transform: scale(1.05);
+        }
+
+        .about-text h2 {
+            font-size: 2rem;
+            color: #0a0f24;
+            margin-bottom: 10px;
+        }
+
+        .about-text p {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #444;
+            margin-bottom: 15px;
+        }
+
+        .skills-list {
+            margin-top: 15px;
+        }
+
+        .skills-list span {
+            background: #0a0f24;
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 30px;
+            display: inline-block;
+            margin: 6px 6px 0 0;
+            font-size: 0.9rem;
+        }
+            .skills-section {
+            max-width: 1100px;
+            margin: 60px auto;
+            padding: 40px;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.07);
+            animation: fadeIn 1.2s ease;
+        }
+
+        .skills-title {
+            font-size: 2rem;
+            color: #0a0f24;
+            margin-bottom: 10px;
+        }
+
+        .skills-intro {
+            font-size: 1.05rem;
+            color: #555;
+            margin-bottom: 25px;
+            line-height: 1.7;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .skill-card {
+            background: #f8faff;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+        }
+
+        .skill-card h3 {
+            font-size: 1.3rem;
+            color: #0a0f24;
+            margin-bottom: 15px;
+        }
+
+        .skill-card ul {
+            padding-left: 20px;
+        }
+
+        .skill-card ul li {
+            margin-bottom: 10px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+            /* PROJECTS SECTION */
+        .projects-section {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 40px;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.07);
+            animation: fadeIn 1.2s ease;
+        }
+
+        .projects-title {
+            font-size: 2rem;
+            color: #0a0f24;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .project-card {
+            background: #f8faff;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+        }
+
+        .project-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+        }
+
+        .project-img {
+            width: 100%;
+            height: 170px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+
+        .project-btn {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 10px 20px;
+            background: #0a0f24;
+            color: #fff;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: 0.3s ease;
+        }
+
+        .project-btn:hover {
+            background: #4da6ff;
+        }
+
+        /* CONTACT SECTION */
+        .contact-section {
+            margin-top: 60px;
+            padding: 40px;
+            background: #0a0f24;
+            color: white;
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .contact-link {
+            color: #4da6ff;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+
+<body>
+    <section id="about" class="about-section">
+        <div class="about-image-wrapper">
+            <img src="Images/imagepix.jpg" alt="Giwa Solomon Saidu" class="about-profile" />
+        </div>
+
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>
+                I am <strong>Giwa Solomon Saidu</strong>, a data analytics and business intelligence professional committed to transforming data into actionable insights that deliver real business impact. With strong experience in <strong>Power BI, SQL, Excel, and M&E KPI tracking</strong>, I specialize in transforming complex datasets into strategic insights that support clear, informed, and data-driven decisions.
+            </p>
+
+            <p>
+                I am passionate about uncovering trends, optimizing processes, and designing intuitive dashboards that empower organizations to make smarter, faster, and evidence-based decisions.
+            </p>
+
+            <h3>Core Competencies</h3>
+            <ul class="about-list">
+                <li>✔ Data Cleaning, Analysis & Modelling</li>
+                <li>✔ KPI Development & M&E Reporting</li>
+                <li>✔ Dashboard Design & Data Visualization</li>
+                <li>✔ Business Intelligence & Performance Insights</li>
+                <li>✔ Process Optimization & Data-Driven Strategy</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <h2 class="skills-title">Skills</h2>
+
+        <p class="skills-intro">
+            As a data analyst with strong business intelligence and M&E experience, I combine analytical thinking
+            with modern tools to transform raw data into clear, actionable insights.
+        </p>
+
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Core Technical Skills</h3>
+                <ul>
+                     <li>Data Cleaning & Preparation</li>
+                    <li>Data Visualization & Reporting</li>
+                    <li>Business Intelligence (BI)</li>
+                    <li>KPI Design & M&E Reporting</li>
+                    <li>Database Querying (SQL)</li>
+                    <li>Excel Analytics & Automation</li>
+                    <li>Problem-Solving & Critical Thinking</li>
+                    <li>ETL (Extract, Transform, Load)</li>
+                     <li>Data Modelling </li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3>Tools & Technologies</h3>
+                <ul>
+                    <li>SQL (Joins, Aggregations, Transformations)</li>
+                    <li>Excel (PivotTables, Power Query, Automation)</li>
+                    <li>Tableau (Data Storytelling & Reporting)</li>
+                    <li>Collaboration Tools (Windows Server, Google Suite, Microsoft Office, Slack, Zoom, Team Viewer and Google Meet)</li>
+                </ul>
+            </div>
+        </div>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Projects</title>
+
+    <!-- ================== EMBEDDED CSS ================== -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+        }
+
+        /* Section Title */
+        .projects-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        /* Projects Grid */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+            padding: 30px;
+            width: 90%;
+            margin: auto;
+        }
+
+        /* Cards */
+        .project-card {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            transition: transform .3s ease, box-shadow .3s ease;
+        }
+
+        .project-card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+        }
+
+        /* Images */
+        .project-img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 12px;
+        }
+
+        /* Buttons */
+        .project-btn {
+            display: inline-block;
+            padding: 10px 18px;
+            background: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 10px;
+            transition: background .3s ease;
+        }
+
+        .project-btn:hover {
+            background: #0056b3;
+        }
+
+        /* Footer / Contact */
+        .contact-section {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 40px;
+        }
+
+        .contact-section a {
+            color: #00ccff;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .contact-section a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <!-- ================== END CSS ================== -->
+
+</head>
+
+<body>
+
+    <!-- ================= PROJECTS SECTION ================= -->
+    <section id="projects" class="projects-section">
+        <h2 class="projects-title">Projects Executed</h2>
+
+        <div class="projects-grid">
+
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img src="Images/imagd.JPG" alt="Deskify Office Supplies Dashboard" class="project-img">
+
+                <h3>Deskify Office Supplies Performance Dashboard</h3>
+                <p>
+                    This interactive Power BI dashboard provides a comprehensive analysis of office supplies performance 
+                    from January 2009 to December 2012, covering sales trends, profitability, customer behavior, and product performance.
+                </p>
+                <a href="#" class="project-btn">View Project</a>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="Images/Pure Sip Dash.PNG" alt="Pure Sip Sales Dashboard" class="project-img">
+
+                <h3>Pure Sip’s Sales Analysis Dashboard</h3>
+                <p>
+                    This dashboard analyzes Pure Sip’s sales performance across regions, retailers, and brands, showing trends, targets, and contributions.
+                </p>
+                <a href="#" class="project-btn">View Project</a>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <img src="Images/Eastview.png" alt="Eastview Marketing Dashboard" class="project-img">
+
+                <h3>Eastview Marketing Dashboard</h3>
+                <p>
+                    An Excel-based dashboard analyzing revenue, profit, campaign success, and ROI across channels, visualizing targets vs actuals and marketing trends.
+                </p>
+                <a href="#" class="project-btn">View Project</a>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card">
+                <img src="Images/Cafe_Harmony.PNG" alt="Cafe Harmony Dashboard" class="project-img">
+
+                <h3>Cafe Harmony Sales Performance Dashboard</h3>
+                <p>
+                    Built in Excel, this dashboard offers insights on total sales, product performance, customer count, ratings, and stock performance.
+                </p>
+                <a href="#" class="project-btn">View Project</a>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card">
+                <img src="Images/Top Bottom Analysis Header.PNG" alt="NovaMeD Dashboard" class="project-img">
+
+                <h3>NovaMeD Top & Bottom Sales Analysis Dashboard</h3>
+                <p>
+                    A Power BI dashboard analyzing pharmaceutical sales performance, showing revenue contribution, profits, and top vs low performing products and customers.
+                </p>
+                <a href="#" class="project-btn">View Project</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= CONTACT SECTION ================= -->
+    <footer id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+
+        <p>Email: <strong>giwasolomonsaidu@gmail.com</strong></p>
+        <p>Phone: <strong>+234 706 464 6245</strong></p>
+
+        <p>
+            LinkedIn: 
+            <a href="https://www.linkedin.com/in/giwasolomon-monitoringevaluation" target="_blank">
+                View Profile
+            </a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
